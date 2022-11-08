@@ -1,4 +1,27 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+* {cursor: url(http://cur.cursors-4u.net/nature/nat-3/nat260.cur), auto;}
+
+@media (min-width : 320px)
+and (max-width : 680px){
+    #badge1{
+        width:40%;
+        height: auto;
+        object-fit: contain;
+    }
+    #badge2{
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+    #badge3{
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
 
 *{
     font-family: 'Poppins';
@@ -18,6 +41,12 @@ Link{
     font-size: 18px;
     font-weight: 600;
     
+}
+.navku{
+    display: flex;
+    justify-content: center;
+    border: ridge;
+    z-index: 1;
 }
 
 .navku a{
@@ -50,9 +79,9 @@ Link{
 }
 
 .iconku{
-    
+    width: auto;
     display: flex;
-    /* border: ridge; */
+    border: ridge;
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,107 +108,4 @@ Link{
 
 .intro{
     padding-top: 90px;
-}
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-.snowflakes {
-	width: 95%; 
-	position: absolute; top: 50px; left: -10;
-}
-
-.snowflakes i, .snowflakes i:after, .snowflakes i:before { background: white; }
-.snowflakes i {
-	display: inline-block;
-	animation: snowflakes 3s linear 2s 20;
-	animation: snowflakes 3s linear 2s 20;
-	position: relative;
-}
-.snowflakes i:after, .snowflakes i:before {
-	height: 100%; /*bentuk*/
-	width: 100%;
-	content: ".";
-	position: absolute;
-	top: 0px;
-	left: -1px;
-	transform: rotate(120deg);
-}
-.snowflakes i:before { transform: rotate(240deg); }
-
-@keyframes snowflakes {
-	0% {
-		transform: translate3d(0,0,0) rotate(0deg) scale(0.6);
-	}
-	100% {
-		transform: translate3d(20px, 900px, 0px) rotate(360deg) scale(0.4);
-	};
-}
-
-.snowflakes i:nth-child(3n) {
-	width: 16px; height: 4px;
-    animation-duration: 100s;
-    animation-iteration-count: 1000;
-    transform-origin: left 10px;
-}
-
-.snowflakes i:nth-child(3n+1) {
-	width: 24px; height: 6px;
-    animation-duration: 6s;
-    animation-iteration-count: 1000;
-    transform-origin: left 10px;
-}
-
-.snowflakes i:nth-child(3n+2) {
-	width: 32px; height: 8px;
-	animation-duration: 8s;
-	animation-iteration-count: 1000;
-	transform-origin: left 10px;
-}
-	
-/* different delays so they don't all start at the same time */
-.snowflakes i:nth-child(7n) {
-    opacity:.3;
-    animation-delay: 0s;
-    animation-timing-function:ease-in;
-}
-.snowflakes i:nth-child(7n+1) {
-    opacity:.4;
-    animation-delay: 1s;
-    animation-timing-function:ease-out;
-}
-.snowflakes i:nth-child(7n+2) {
-    opacity:.5;
-    animation-delay: 1.5s;
-    animation-timing-function:linear;
-}
-.snowflakes i:nth-child(7n+3) {
-    opacity:.6;
-    animation-delay: 2s;
-    animation-timing-function:ease-in;
-}
-.snowflakes i:nth-child(7n+4) {
-    opacity:.7;
-    animation-delay: 2.5s;
-    animation-timing-function:linear;
-}
-.snowflakes i:nth-child(7n+5) {
-    opacity:.8;
-    animation-delay: 3s;
-    animation-timing-function:ease-out;
-}
-.snowflakes i:nth-child(7n+6) {
-    opacity:.9;
-    animation-delay: 3.5s;
-    animation-timing-function:ease-in;
 }

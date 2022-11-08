@@ -29,7 +29,7 @@ return (
 
             
             </ul>
-            <div className="col-9 iconku">
+            <div className="col iconku">
                     <li className="icon">
                     <a className="fa fa-instagram icon" href="https://www.instagram.com/vania.kirana/" target="_blank"></a>
                     </li>
