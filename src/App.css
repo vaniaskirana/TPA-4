@@ -20,6 +20,7 @@ and (max-width : 680px){
         object-fit: contain;
     }
 
+
 }
 
 
@@ -102,10 +103,44 @@ Link{
 }
 
 .pasme{
-    border: ridge;
+    /* border: ridge; */
     padding-top: 35px;
+    width:340px;
 }
 
 .intro{
     padding-top: 90px;
+}
+
+.intro2{
+    column-gap: 5%;
+    justify-items: center;
+    padding: 80px;
+}
+
+.intro2a h1{
+    font-weight: 1000;
+}
+.intro2a h3{
+    font-weight: 800;
+    font-size: 20px;
+
+}
+.intro2a p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.intro2a li{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.intro2 h1:hover{
+    color: aqua;
+}
+
+.intro2 h3{
+    color: white;
+    text-align: justify;
 }

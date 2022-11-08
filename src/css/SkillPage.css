@@ -126,6 +126,10 @@
     
     
     /* badge sertifikat */
+    .badge{
+        /* border: ridge; */
+        width: 99vw;
+    }
     
     
     .badge h3{
@@ -150,3 +154,18 @@
         background-color: rgb(171, 172, 72);
     }
     
+    .badge1{
+        width:40%;
+        height: auto;
+        object-fit: contain;
+    }
+    #badge2{
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+    #badge3{
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
