@@ -247,6 +247,12 @@ Link{
             color: white;
         }
 
+        .projekKu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: right;
+        }
         .projekKu h1{
             color: white;
         }
