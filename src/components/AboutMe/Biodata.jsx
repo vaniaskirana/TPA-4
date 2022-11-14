@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom"
 import Pdf from './resume.pdf'
 
 const Biodata = ({fullname, imgPas, desme1, desme2}) => {
@@ -17,6 +16,8 @@ const Biodata = ({fullname, imgPas, desme1, desme2}) => {
                             <br></br><br></br>
                             
                             <a href={Pdf} style={{textDecoration: 'none'}} target="_blank"><button>Download Resume</button></a>
+                            <br></br>
+                            <br></br>
                             <br></br>
                 </div>
             </div>

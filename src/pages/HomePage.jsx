@@ -1,5 +1,6 @@
 // components
 import {useState} from 'react';
+import AllArticle from '../components/HomePage/AllArticle';
 import IntroMe from "../components/HomePage/IntroMe";
 
 const HomePage = () => {
@@ -10,12 +11,8 @@ const HomePage = () => {
         <>
         
         <IntroMe imgme={imgme} nickname={nickname}/>
-      
+        <AllArticle/>
         
-     
-       
-
-
         </>
     )
 }

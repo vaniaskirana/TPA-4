@@ -1,6 +1,7 @@
 const SkillBar = ({percentageHtml, percentageCss, percentageJs, percentageJava, percentageC,percentageCC,percentageCCC, percentageGo}) => {
     return(
         <>
+            <br></br><br></br><br></br>
             <div className="skillpage">
             <h1>Skill Page</h1>
                 <div className="bar front expert"  data-skill="HTML">

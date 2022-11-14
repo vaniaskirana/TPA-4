@@ -46,7 +46,7 @@ Link{
 .navku{
     display: flex;
     justify-content: center;
-    border: ridge;
+    /* border: ridge; */
     z-index: 1;
 }
 
@@ -82,7 +82,7 @@ Link{
 .iconku{
     width: auto;
     display: flex;
-    border: ridge;
+    /* border: ridge; */
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
@@ -99,7 +99,7 @@ Link{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: ridge;
+    /* border: ridge; */
 }
 
 .pasme{
@@ -144,3 +144,113 @@ Link{
     color: white;
     text-align: justify;
 }
+
+#ft{
+    color: white;
+    text-align: center;
+}
+
+
+.intro button{
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    border-radius: 45px;
+}
+
+.intro button:hover{
+    background-color: turquoise;
+    color: white;
+
+}
+
+.foote{
+    background-color: rgb(28, 164, 167);
+    width: 100%;
+    border: ridge;
+    border-color: white;
+    color: white;
+}
+
+.emailme button{
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    border-radius: 45px;
+}
+
+.emailme button:hover{
+    background-color: turquoise;
+    color: white;
+
+}
+
+
+        /*----------artikel di index---------------*/
+        article{ /* tadi ini .artikel*/
+            margin: auto;
+            width: fit-content;
+            width: -moz-fit-content;
+            display: grid;
+            margin:100px;
+        }
+
+      
+
+        article:hover{
+            /* background-color: turquoise; */
+            color: white;
+        }
+        /* .artikel:hover{
+            color: white;
+        } */
+
+        .artikel a{
+            color: black;
+
+        }
+
+      
+        .artikel1 a{
+            color: white;
+        }
+
+        .artikel1 h3{
+            border: dotted;
+            border-color: white;
+            padding: 10px 10px;
+
+        }
+
+        .artikel1 img{
+            width: 100%;
+        }
+
+        .fa fa-arrow-left{
+            z-index: 1;
+        }
+
+        .artikel button{
+            color: black;
+            background-color: pink;
+            font-size: 16px;
+            border-style: dotted;
+            border-color: white;
+            position: relative;
+        } 
+
+        .artikel button:hover{
+            border-color: aqua;
+        }
+
+        .artikel h1 {
+            color: white;
+        }
+
+        .projekKu h1{
+            color: white;
+        }
+
+        .projekKu h1:hover {
+            color: aqua;
+        }
