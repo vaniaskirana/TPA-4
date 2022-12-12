@@ -7,11 +7,13 @@ import { BrowserRouter } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import ScrollToTop from './ScrollToTop';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop/>
       <App />
     </BrowserRouter>
 

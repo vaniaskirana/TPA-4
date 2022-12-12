@@ -23,9 +23,7 @@ return (
                 </li>
                 <li className="nav-item navku">
                 <Link to={"skill"} style={{textDecoration: 'none'}} className="nav-link">Skill</Link>
-
                 </li>
-
             
             </ul>
             <div className="col iconku">
