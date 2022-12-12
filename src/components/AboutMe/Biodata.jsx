@@ -1,4 +1,4 @@
-import Pdf from './resume.pdf'
+import Pdf from './Resume_Vania Sasikirana.pdf'
 
 const Biodata = ({fullname, imgPas, desme1, desme2}) => {
     return (
