@@ -21,9 +21,9 @@ const Experience = () => {
                     <div className="col intro2a">
                         <h1 className="text-center">Education</h1><br></br>
                         <h3>2019 - Present</h3>
-                        <p>University of Gunadarma - System Information</p>
+                        <p>University of rahasiaaaa wkwkwk</p>
                         <h3>2016</h3>
-                        <p>SMAN 8 Bekasi</p>
+                        <p>SMAN * Bekasi</p>
                     </div>
                 </div>
                 
