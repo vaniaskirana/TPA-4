@@ -12,6 +12,7 @@ return (
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
+                {/*
                 <li className="nav-item navku">
                 <Link to={"/"} style={{textDecoration: 'none'}} className="nav-link">Home</Link>
                 </li>
@@ -24,7 +25,7 @@ return (
                 <li className="nav-item navku">
                 <Link to={"skill"} style={{textDecoration: 'none'}} className="nav-link">Skill</Link>
                 </li>
-            
+            */}
             </ul>
             <div className="col iconku">
                     <li className="icon">
