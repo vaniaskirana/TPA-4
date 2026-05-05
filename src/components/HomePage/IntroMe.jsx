@@ -8,7 +8,7 @@ const IntroMe = ({imgme, nickname}) => {
        <div className="m-2 text-center imgIntroMe"><img src={imgme}/></div>
         <div className="col-4 text-center mx-auto">
             <p>
-            Hello! <h3 className="m-200" style={{color: "white"}}>This is {nickname} 👋</h3>I am a student from Gunadarma University and Im so interested in the world of coding specifically for web development.
+            Hello! <h3 className="m-200" style={{color: "white"}}>This is {nickname} 👋</h3>I am a student from University and Im so interested in the world of coding specifically for web development.
             </p>
         </div>
     </div>
