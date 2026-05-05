@@ -5,7 +5,7 @@ const MyProject = () => {
         <br/>
         <br/>
         <div className="row container text-center projekKu">
-            <div className="col">
+           /* <div className="col">
                 <h1>Group Project : </h1>
                 <br></br>
                 <h2>Voluntegreen</h2>
@@ -24,7 +24,7 @@ const MyProject = () => {
                
                 <h2>BMI Calculator :</h2> <br/><br/>
                 <iframe src="https://vaniaskirana-tpa2.netlify.app/" width="60%" height={600}></iframe>
-                </div>
+                </div> */
         </div>
         </>
     )
