@@ -1,7 +1,8 @@
 const SkillBadge = () => {
+/*  
     return(
         <>
-        /*    
+          
         <div className=" text-center badge">
         <div class="row align-items-start bdg">
             <div class="col">
@@ -30,10 +31,12 @@ const SkillBadge = () => {
         </div>
         
         </div>
-        */
+        
         </>
 
     )
+    */
+    return null;
 }
 
 export default SkillBadge
